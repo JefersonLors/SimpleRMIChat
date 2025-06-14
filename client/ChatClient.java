@@ -14,8 +14,8 @@ public class ChatClient extends UnicastRemoteObject implements ChatClientServerI
     private final String chatClientPrefixName = "Chat_user_";
     private String chatClientName = "unknown user";
     private int chatClientPort = 9032;
-    private String chatServerName = "Global Server Chat";
-    private int chatServerPort = 9032;
+    private String chatServerName = "Chat-server";
+    private int chatServerPort = 3230;
     private ChatServerClientInterface chatServer;
 
     protected ChatClient() throws RemoteException, NotBoundException, MalformedURLException {
